@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.685);
+}
+
+h1,
+h4 {
+    text-align: center;
+    background-color: rgb(87, 82, 82);
+    color: white;
+    padding: 15px;
+}
+
+#navigate{
+    position: sticky;
+    top: 0%;
+    z-index: index 1;;
+}
+
+.menu{
+    margin: 0;
+    background-color: gray;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu li{
+    padding: 10px;
+    display: inline-block;
+}
+
+.menu li:hover{
+    background-color: black;
+}
+.menu li:nth-child(2):hover #submenu_1, .menu li:nth-child(3):hover #submenu_2{
+    display: block;
+}
+
+#submenu_1, #submenu_2{
+    position: absolute;
+    top: 45px;
+    width:auto;
+    background-color: whitesmoke;
+    padding: 0%;
+    display: none;
+}
+
+#submenu_1 li,#submenu_2 li{
+    display:block;
+}
+
+#submenu_1 li:hover,#submenu_2 li:hover{
+    background-color: blue;
+}
+
+#submenu_1 li a,#submenu_2 li a{
+          color: steelblue;
+          font-size: 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 2px;
+    position: relative;
+    bottom: 0%;
+    text-align: center;
+}
+
+section>p {
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 9px;
+}
+
+.products {
+    width: 175px;
+    /* min-width: 160px; */
+    height: 310px;
+    padding: 10px;
+    display: inline-block;
+    background-color: whitesmoke;
+    box-shadow: 1px;
+    border-radius: 3px;
+    line-height: 30px;
+    margin: 20px 3px 20px 8px
+}
+
+.products p {
+    color: steelblue;
+}
+
+#head {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.cart {
+    min-width: 140 px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border-color: gray;
+}
+
+.cart a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+}
+
+.pro_img {
+    width: 150px;
+    height: 100px;
+    padding: 5px;
+}
+
+.cart:active {
+    background-color: rgb(250, 234, 230);
+    border-color: rgb(0, 255, 76);
+    color: black;
+}
+
+.products:hover {
+    scale: 110%;
+}
+
+
